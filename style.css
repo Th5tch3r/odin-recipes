@@ -3,7 +3,8 @@
 }
 
 * {
-    overflow: auto;
+    /* overflow: auto; */
+    color: black;
 }
 
 body {
@@ -11,3 +12,43 @@ body {
     margin: 10% 20%;
 }
 
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blanchedalmond;
+}
+
+.recipes div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipes div img{
+    height: auto;
+    width: 350px;
+    border-radius: 20px;
+    transition: 1s ease;
+}
+
+.recipes div img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+.recipes div a {
+    padding-bottom: 15px;
+}
+
+.headline_links {
+    margin-bottom: 30px;
+}
